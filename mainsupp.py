@@ -1,4 +1,3 @@
-  
 kv = """
 ScreenManager:
     Mainscreen:
@@ -54,6 +53,8 @@ ScreenManager:
         source:"RMK_Engineering_College.png"
         on_press:
             app.goto()  
+
+
 <Secondscreen>:
     name:"second" 
     MDRectangleFlatIconButton:
@@ -140,6 +141,7 @@ ScreenManager:
                                 nav_drawer.set_state("close")
                                 app.show_theme_picker()           
                                      
+
 <Contactscreen>:
     name: 'contactscreen'
     RelativeLayout:
@@ -244,6 +246,8 @@ ScreenManager:
                             on_press: 
                                 nav_drawer.set_state("close")
                                 app.show_theme_picker()        
+
+
 <Aboutscreen>:
     name: 'aboutscreen'
     MDCard:
@@ -270,6 +274,8 @@ ScreenManager:
         Image:
             source:"siva.png"
             size_hint:.5,1
+
+
     MDRectangleFlatButton:
         text: "Details" 
         pos_hint: {"center_x": .7, "center_y": .72}
@@ -333,6 +339,8 @@ ScreenManager:
                             on_press: 
                                 nav_drawer.set_state("close")
                                 app.show_theme_picker()        
+
+
 <Infoscreen>:
     name:'info'
     MDCard:
@@ -576,6 +584,9 @@ ScreenManager:
                         elevation: 11
                         left_action_items: [["keyboard-backspace",lambda x: app.change()]]
                     Widget:
+
+
+
 <Ecescreen>:
     name:'ece'
     MDLabel:
@@ -663,6 +674,7 @@ ScreenManager:
                         left_action_items: [["keyboard-backspace",lambda x: app.change()]]
                     Widget:
         
+
 <Mechscreen>          
     name:'mech'
     MDLabel:
@@ -941,6 +953,7 @@ ScreenManager:
                                 tertiary_text: "Unit-1"
                                 on_release:
                                     app.cseMA8351u1()
+
                             ThreeLineListItem:
                                 text: "Discrete Mathematics"
                                 secondary_text: "MA8351"
@@ -1088,6 +1101,7 @@ ScreenManager:
                     
                     
                                    
+
 <Csesem4screen>:         
     name:'csesem4'
     NavigationLayout:
@@ -1165,6 +1179,10 @@ ScreenManager:
                                 on_release:
                                     app.cseCS8494u1to5()
       
+
+
+
+
                                                              
 <Csesem5screen>:         
     name:'csesem5'
@@ -1262,6 +1280,7 @@ ScreenManager:
                                     app.cseCS8602u1to5()
                             ThreeLineListItem:
                                 text:"Distributed Systems"
+
                                 secondary_text: "CS8603"
                                 tertiary_text: "Unit-1 to Unit-5"
                                 on_release:
@@ -1340,6 +1359,7 @@ ScreenManager:
                                 
                             
                                                             
+
 <Itsem1screen>:        
     name:'itsem1'
     NavigationLayout:
@@ -1399,6 +1419,10 @@ ScreenManager:
                                     app.shge8152()
        
                                                                                                                              
+
+
+
+
 <Itsem2screen>:        
     name:'itsem2' 
     NavigationLayout:
@@ -1499,6 +1523,10 @@ ScreenManager:
                                     app.shcs8251()        
         
                                 
+
+
+
+
 <Itsem3screen>:        
     name:'itsem3'
     NavigationLayout:
@@ -1521,6 +1549,7 @@ ScreenManager:
                                 tertiary_text: "Unit-1"
                                 on_release:
                                     app.cseMA8351u1()
+
                             ThreeLineListItem:
                                 text: "Discrete Mathematics"
                                 secondary_text: "MA8351"
@@ -1551,6 +1580,7 @@ ScreenManager:
                                 tertiary_text: "Unit-1"
                                 on_release:
                                     app.itcs8351u1()
+
                             ThreeLineListItem:
                                 text: "Digital Principles and System Design"
                                 secondary_text: "CS8351"
@@ -1581,6 +1611,7 @@ ScreenManager:
                                 tertiary_text: "Unit-1"
                                 on_release:
                                     app.itcs8392u1()
+
                             ThreeLineListItem:
                                 text: "Object Oriented Programming"
                                 secondary_text: "CS8392"
@@ -1611,6 +1642,7 @@ ScreenManager:
                                 tertiary_text: "Unit 1-5"
                                 on_release:
                                     app.itcs8391()
+
                             
                             ThreeLineListItem:
                                 text: "Analog and Digital Communication"
@@ -1726,6 +1758,8 @@ ScreenManager:
                                     app.shge8291()        
      
                                                                 
+
+
 <Itsem5screen>:        
     name:'itsem5'
     NavigationLayout:
@@ -1905,6 +1939,8 @@ ScreenManager:
                                 on_release:
                                     app.itcs8494u5()
       
+
+
 <Itsem6screen>:        
     name:'itsem6'
     NavigationLayout:
@@ -2133,33 +2169,9 @@ ScreenManager:
                             ThreeLineListItem:
                                 text:"Cloud Computing"
                                 secondary_text: "CS8791"
-                                tertiary_text: "Unit-1"
+                                tertiary_text: "Unit 2-5"
                                 on_release:
-                                    app.itcs8791u1()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-2"
-                                on_release:
-                                    app.itcs8791u2()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-3"
-                                on_release:
-                                    app.itcs8791u3()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-4"
-                                on_release:
-                                    app.itcs8791u4()
-                            ThreeLineListItem:
-                                text:"Cloud Computing"
-                                secondary_text: "CS8791"
-                                tertiary_text: "Unit-5"
-                                on_release:
-                                    app.itcs8791u5()
+                                    app.itcs8791()
                             
                             ThreeLineListItem:
                                 text:"Principles of Management"
@@ -2320,6 +2332,9 @@ ScreenManager:
                                     app.avali()
                                     #app.itome752u5()
                                     
+
+
+
 <Itsem8screen>:        
     name:'itsem8'
     NavigationLayout:
@@ -2631,6 +2646,9 @@ ScreenManager:
                                 tertiary_text: "All Units"
                                 on_release:
                                     app.eceEC8451all()                    
+
+
+
 <Ecesem5screen>:        
     name:'ecesem5'
     NavigationLayout:
@@ -2676,65 +2694,66 @@ ScreenManager:
                                 secondary_text: "EC8073"
                                 tertiary_text: "Unit-1"
                                 on_release:
-                                    app.eceEC8551u1()
+                                    app.eceEC8073u1()
                             ThreeLineListItem:
                                 text:"Medical Electronics"
                                 secondary_text: "EC8073"
                                 tertiary_text: "Unit-2"
                                 on_release:
-                                    app.eceEC8551u2()
+                                    app.eceEC8073u2()
                             ThreeLineListItem:
                                 text:"Medical Electronics"
                                 secondary_text: "EC8073"
                                 tertiary_text: "Unit-3"
                                 on_release:
-                                    app.eceEC8551u3()
+                                    app.eceEC8073u3()
                             ThreeLineListItem:
                                 text:"Medical Electronics"
                                 secondary_text: "EC8073"
                                 tertiary_text: "Unit-4"
                                 on_release:
-                                    app.eceEC8551u4()
+                                    app.eceEC8073u4()
                             ThreeLineListItem:
                                 text:"Medical Electronics"
                                 secondary_text: "EC8073"
                                 tertiary_text: "Unit-5"
                                 on_release:
                                     app.avali()
-                                    #app.eceEC8551u5()                                                        
+                                    #app.eceEC8073u5()                                                        
                             ThreeLineListItem:
                                 text:"Basics of Biomedical Instrumentation"
                                 secondary_text: "OMD551"
                                 tertiary_text: "Unit-1"
                                 on_release:
-                                    app.eceEC8551u1() 
+                                    app.eceOMD551u1() 
                             ThreeLineListItem:
                                 text:"Basics of Biomedical Instrumentation"
                                 secondary_text: "OMD551"
                                 tertiary_text: "Unit-2"
                                 on_release:
-                                    app.eceEC8551u2() 
+                                    app.eceOMD551u2() 
                             ThreeLineListItem:
                                 text:"Basics of Biomedical Instrumentation"
                                 secondary_text: "OMD551"
                                 tertiary_text: "Unit-3"
                                 on_release:
-                                    app.eceEC8551u3() 
+                                    app.eceOMD551u3() 
                             ThreeLineListItem:
                                 text:"Basics of Biomedical Instrumentation"
                                 secondary_text: "OMD551"
                                 tertiary_text: "Unit-4"
                                 on_release:
-                                    app.eceEC8551u4()
+                                    app.eceOMD551u4()
                             ThreeLineListItem:
                                 text:"Basics of Biomedical Instrumentation"
                                 secondary_text: "OMD551"
                                 tertiary_text: "Unit-5"
                                 on_release:
                                     app.avali()
-                                    #app.eceEC8551u5()                                 
+                                    #app.eceOMD551u5()                                 
                                     
                             
+
 <Ecesem6screen>:        
     name:'ecesem6'
     NavigationLayout:
@@ -2789,6 +2808,8 @@ ScreenManager:
                                     app.eceEC8002all()          
                                                                   
        
+
+
 <Ecesem7screen>:        
     name:'ecesem7'
     NavigationLayout:
@@ -2996,6 +3017,7 @@ ScreenManager:
         
      
                                 
+
 <Ecesem8screen>:        
     name:'ecesem8'
     NavigationLayout:
@@ -3012,6 +3034,7 @@ ScreenManager:
        
       
                                 
+
 <Mechsem1screen>:        
     name:'mechsem1'
     NavigationLayout:
@@ -3087,6 +3110,9 @@ ScreenManager:
                         left_action_items: [["keyboard-backspace",lambda x: app.change_sce()]]
                     Widget:
                                        
+
+
+
 <Mechsem3screen>:        
     name:'mechsem3'
     NavigationLayout:
@@ -3311,6 +3337,8 @@ ScreenManager:
                                     app.mCE8395u1to5()
                                        
                                 
+
+
 <Mechsem5screen>:        
     name:'mechsem5'
     NavigationLayout:
@@ -3483,6 +3511,8 @@ ScreenManager:
                                     app.avali()
                                     #app.momf551u5()
        
+
+
 <Mechsem6screen>:        
     name:'mechsem6'
     NavigationLayout:
@@ -3541,6 +3571,8 @@ ScreenManager:
                                 on_release:
                                     app.mme8692()
         
+
+
 <Mechsem7screen>:        
     name:'mechsem7'
     NavigationLayout:
@@ -3621,6 +3653,10 @@ ScreenManager:
                                     app.avali()
                                     #app.mme8097u5()
        
+
+
+
+
 <Mechsem8screen>:        
     name:'mechsem8'
     NavigationLayout:
@@ -3636,6 +3672,7 @@ ScreenManager:
                         left_action_items: [["keyboard-backspace",lambda x: app.change_sce()]]
                     Widget:
        
+
                         
                                         
 """
