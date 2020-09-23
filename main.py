@@ -1,7 +1,7 @@
 from kivymd.app import MDApp
 from kivy.lang import Builder
 from kivy.uix.screenmanager import Screen, ScreenManager
-from mainsupp import kv
+from suppoter import kv
 from kivy.core.window import Window
 from kivymd.toast import toast
 from kivymd.uix.dialog import MDDialog
@@ -191,7 +191,7 @@ class windowmanager(ScreenManager):
 Window.size = (300, 500)
 
 
-class RMK_E_GURU(MDApp):
+class RMKEGURU(MDApp):
     def build(self):
         k = Builder.load_string(kv)
         return k
@@ -750,20 +750,8 @@ class RMK_E_GURU(MDApp):
     def itit8602u5(self):
         webbrowser.open('https://drive.google.com/file/d/1NtdSY5r1Hy2WsLJis_lhG1Tw6ag6o-l2/view?usp=sharing')
 
-    def itcs8791u1(self):
-        webbrowser.open('https://drive.google.com/file/d/1eaY2IN0EEv3sjn_N4Nqu8Hfb0AeYvcH4/view?usp=sharing')
-
-    def itcs8791u2(self):
-        webbrowser.open('https://drive.google.com/file/d/1uW92lpaGM--vXbsk2KsopAxhJ10_OR7y/view?usp=sharing')
-
-    def itcs8791u3(self):
-        webbrowser.open('https://drive.google.com/file/d/1CYYu0pxiqi2bbAwb5pMNz5JgEm-w4mwL/view?usp=sharing')
-
-    def itcs8791u4(self):
-        webbrowser.open('https://drive.google.com/file/d/1-3hQaysb8hoM59yhNt3AJZlJMhMpBWaL/view?usp=sharing')
-
-    def itcs8791u5(self):
-        webbrowser.open('https://drive.google.com/file/d/1h-WVlK58JzHazJ9m7t8GUjEXpKvonU5X/view?usp=sharing')
+    def itcs8791(self):
+        webbrowser.open('https://drive.google.com/file/d/1XU-pTCVFcIPWtoBLcJmcyO3FaTe_sDOK/view?usp=sharing')
 
     def itmg8591u1(self):
         webbrowser.open('https://drive.google.com/file/d/156niWMopuIqeqGGYAQtA03Fxqgc_gH9C/view?usp=sharing')
@@ -1263,5 +1251,47 @@ class RMK_E_GURU(MDApp):
     def mme8097u5(self):
         webbrowser.open('')
 
+    def shhs8251(self):
+        webbrowser.open("https://drive.google.com/file/d/1kJgnSa0cZAHeBUfCqNreNsnv7teDGWK2/view?usp=sharing")
 
-RMK_E_GURU().run()
+    def shma8251(self):
+        webbrowser.open("https://drive.google.com/file/d/1uV0oK5MPo1YCIR-bU55p_tc1op3MOk8s/view?usp=sharing")
+
+    def shph8252u1(self):
+        webbrowser.open("https://drive.google.com/file/d/1Pvex3B70RaNN6MOmCxOO1Zo6EpyUHhJz/view?usp=sharing")
+
+    def shph8252u2(self):
+        webbrowser.open("https://drive.google.com/file/d/1pAWuhIUZavsUdEtn9Adr76X9ctCHA7EH/view?usp=sharing")
+
+    def shph8252u3(self):
+        webbrowser.open("https://drive.google.com/file/d/1Lle4LmOWvn9J5G5Qmg0dQxwVFvmb5b8i/view?usp=sharing")
+
+    def shph8252u4(self):
+        webbrowser.open("https://drive.google.com/file/d/1gs78vO2siLKb0yCC9VkW9FtiLylKexmz/view?usp=sharing")
+
+    def shph8252u5(self):
+        webbrowser.open("https://drive.google.com/file/d/15wzfjCsfSfNx6QdbUMZlZBGLS-qy0k7M/view?usp=sharing")
+
+    def shge8291(self):
+        webbrowser.open("https://drive.google.com/file/d/1Y-4txcASfWJ9dG9tExYF05oK6D0wGT8t/view?usp=sharing")
+
+    def shcs8251(self):
+        webbrowser.open("https://drive.google.com/file/d/1pkAj4AxGEmtuq5MS_VAOgWX6_ti5rQfw/view?usp=sharing")
+
+    def shbe8255u1(self):
+        webbrowser.open("https://drive.google.com/file/d/1WYq4i4kPm7nKMA7tFIlWW3lWrmekKrf4/view?usp=sharing")
+
+    def shbe8255u2(self):
+        webbrowser.open("https://drive.google.com/file/d/1JP8uPAHlsgy7V_u1-8CyJPrmjPr6xs6f/view?usp=sharing")
+
+    def shbe8255u3(self):
+        webbrowser.open("https://drive.google.com/file/d/1ByLuNtyl68ULqQZJSKUwg7XotIKqWdA6/view?usp=sharing")
+
+    def shbe8255u4(self):
+        webbrowser.open("https://drive.google.com/file/d/1gwrQLh6IJYrMlK0d3FReSmUauN1RDqVM/view?usp=sharing")
+
+    def shbe8255u5(self):
+        webbrowser.open("https://drive.google.com/file/d/1Ds8ExtcGjUBZ-PGzxqahMHYAEfwfcOow/view?usp=sharing")
+
+
+RMKEGURU().run()
